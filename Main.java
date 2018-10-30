@@ -15,6 +15,7 @@ public class Main
         calcEffort(40);
         calcEffort(40);
 
+        System.out.println();
         calcPercent(8,3,30);
         calcPercent(9,3,30);
         calcPercent(10,3,30);
@@ -22,6 +23,7 @@ public class Main
         calcPercent(8,4,30);
         calcPercent(8,5,30);
         calcPercent(8,6,30);
+        System.out.println();
 
         calcPercent(8,3,40);
         calcPercent(9,3,40);
@@ -30,6 +32,7 @@ public class Main
         calcPercent(8,4,40);
         calcPercent(8,5,40);
         calcPercent(8,6,40);
+        System.out.println();
 
         calcPercent(8,3,35);
         calcPercent(9,3,35);
@@ -38,6 +41,7 @@ public class Main
         calcPercent(8,4,35);
         calcPercent(8,5,35);
         calcPercent(8,6,35);
+        System.out.println();
     }
 
     public static int calcEffort(int time)
